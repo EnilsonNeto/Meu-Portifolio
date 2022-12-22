@@ -8,10 +8,10 @@ export function NavBar() {
                    <h1>Enilson Neto.DEV</h1>
                     <ul>
                         <a href="#"></a>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contatos</a></li>
+                        <a href="#">Home</a>
+                        <a href="#">Sobre</a>
+                        <a href="#">Projetos</a>
+                        <a href="#">Contatos</a>
                     </ul>
                 </nav>
             </div>

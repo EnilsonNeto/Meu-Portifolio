@@ -25,8 +25,12 @@ export const GlobalStyle = createGlobalStyle `
         }
     }
 
-    .App {
-        background: var(--dark-purple);
+    body, input, textarea, button{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+    }
+    h1 , h2, h3, h4, h5, h6, strong, p {
+        font-weight: 600;
     }
 
 
