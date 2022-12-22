@@ -1,10 +1,14 @@
-import React from "react";
-import './App.css'
+import { NavBar } from "./components/NavBar";
+import { GlobalStyle } from './styles/global';
 
-function App() {
+export function App() {
   return (
-   <h1>teste</h1>
+    <div className="App">
+
+      <NavBar />
+      <GlobalStyle />
+
+    </div>
   );
 }
 
-export default App;
