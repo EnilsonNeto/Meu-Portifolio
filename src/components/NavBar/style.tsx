@@ -27,11 +27,13 @@ h1 {
     cursor: default;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 1190px) {
     h1{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
 }
+
+
 
 nav {
     display: flex;
