@@ -18,18 +18,27 @@ nav {
 h1 {
     display: flex;
     align-items: center;
+    font-size: 2.2rem;
    
 
-    padding: 15px;
+    padding: 10px;
     font-weight: 600;
-    margin-left: 15px;
+    margin-left: 80px;
+    cursor: default;
+}
+
+@media (max-width: 870px) {
+    h1{
+        font-size: 1.2rem;
+    }
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 50px;
+    /* gap: 70px; */
+    height: 12vh;
 }
 
 ul {
@@ -38,8 +47,8 @@ ul {
     justify-content: space-around;
     flex-direction: row;
     
-    gap: 50px;
-    margin-right: 25px;
+    gap:100px;
+    margin-right: 130px;
 
 
 }
@@ -47,6 +56,18 @@ ul {
 a {
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
+
+a:hover {
+    filter: brightness(20);
+    color: #744a91;
+    transition: 0.8s;
+}
+
+
+
+
+
 
 `;
