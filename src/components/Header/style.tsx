@@ -40,11 +40,7 @@ export const Container = styled.main`
   font-weight: 500;
 }
 
-@media screen and (max-width: 1985px) {
-    h2 h3 p {
-      font-size: 1rem;
-    }
-}
+
 
 img {
   display: flex;

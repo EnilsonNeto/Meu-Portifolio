@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.main `
+export const Container = styled.main`
 
 * {
     
@@ -27,11 +27,6 @@ h1 {
     cursor: default;
 }
 
-@media (max-width: 1190px) {
-    h1{
-        font-size: 1.8rem;
-    }
-}
 
 
 
@@ -41,6 +36,17 @@ nav {
     justify-content: space-between;
     /* gap: 70px; */
     height: 12vh;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
 }
 
 ul {
@@ -61,15 +67,41 @@ a {
     text-transform: uppercase;
 }
 
-a:hover {
+a,button:hover {
     filter: brightness(20);
     color: #744a91;
     transition: 0.8s;
 }
 
 
+@media (max-width: 1200px) {
 
+    h1 {
+        font-size: 2rem;
+    }
 
+    ul {
+        margin-right: 95px;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 1080px) {
+
+    h1 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 840px) {
+   
+    h1 {
+        font-size: 0.8rem;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 15px;
+    }
+    
+}
 
 
 `;

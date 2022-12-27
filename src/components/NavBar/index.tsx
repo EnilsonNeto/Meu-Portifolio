@@ -6,8 +6,8 @@ export function NavBar() {
             <div className="navBarAll">
                 <nav>
                    <h1>Enilson Neto.DEV</h1>
+                   <button>&#9776;</button>
                     <ul>
-                        <a href="#"></a>
                         <a href="#">Home</a>
                         <a href="#">Sobre</a>
                         <a href="#">Projetos</a>
