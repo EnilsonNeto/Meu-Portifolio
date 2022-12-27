@@ -21,7 +21,7 @@ export function Sobre() {
                         <div className="skills">
                             <nav className="nav2">
                                 <ul className="ul2">
-                    <p>Me chamo Enilson Neto, Sou da cidade de Caruaru-PE, Tenho 19 anos e atualmente trabalho como mêcanico de refrigeração automotiva. <br />
+                    <p>Me chamo Enilson Neto, Sou da cidade de Caruaru-PE, Tenho 19 anos e atualmente trabalho como mêcanico de refrigeração automotiva.
                         Sempre fui uma pessoa apaixonada por tecnologia e sempre acreditei que um dia pudesse viver, através dela como principal atividade.
                          Estudo constantemente, gosto de jogos virtuais os quais sempre fizeram parte da minha infância e me divirto solucionando problemas,
                          acredito que desde pequeno fui condicionado a esta aréa a qual estou estudando atualmente, desejo um dia iniciar e me formar na área de (ADS),
@@ -31,12 +31,15 @@ export function Sobre() {
                     o curso de (ADS) - Nivel Técnico. Aguardo com expectativa um chance de estar presente no mercado e enquanto este momento não chegar,
                        vou estar sempre me especializando e me preparando cada vez mais.
                     </p>
+                    <div className="newFlex">
+
                                     <img src={htmlImg} alt="Html" /> 
                                     <img src={cssImg} alt="Css" />
                                     <img src={jsImg} alt="Javascript" />
                                     <img src={nodeImg} alt="node" />
                                     <img src={reactImg} alt="react" />
                                     <img src={javaImg} alt="java" />
+                    </div>
 
                                 </ul>
                             </nav>
