@@ -17,7 +17,6 @@ export const Container = styled.main`
 h1 {
     display: flex;
     justify-content: center;
-
     font-size: 10rem;
 }
 
