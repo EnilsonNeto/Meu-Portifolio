@@ -1,6 +1,7 @@
 import { NavBar } from "./components/NavBar";
 import { GlobalStyle } from './styles/global';
 import { Home } from './components/Home';
+import { Sobre } from "./components/Sobre";
 
 export function App() {
   return (
@@ -8,6 +9,7 @@ export function App() {
 
       <NavBar />
       <Home />
+      <Sobre />
 
 
 

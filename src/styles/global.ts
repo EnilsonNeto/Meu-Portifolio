@@ -13,10 +13,12 @@ export const GlobalStyle = createGlobalStyle `
         padding: 0;
         box-sizing: border-box;
     }
+    
 
     body, input, textarea, button{
         font-family: 'Rubik', sans-serif;
         font-weight: 400;
+        background: linear-gradient(#000,#180024); 
     }
     h1 , h2, h3, h4, h5, h6, strong, p {
         font-weight: 600;
