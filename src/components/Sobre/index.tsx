@@ -28,7 +28,7 @@ export function Sobre() {
                          assim que conseguir uma oportunidade no mercado de trabalho, já realzei alguns cursos técnicos tanto EAD quanto Presencial,
                          os que mais se destacaram de acordo com meu desenvolvivemento foram Rockeseat no seu modulo (Discover) onde obtive o primeiro contato,
                         e o outro pela instituição SENAC onde realizei através do EB (Exército Brasileiro) (tg 07-014 Caruaru-PE) ofertaram gratuitamento,
-                    o curso de (ADS) - Nivel Técnico. Aguardo com expectativa um chance de estar presente no mercado e enquanto este momento não chegar,
+                    o curso de (ADS) - Nivel Técnico. Aguardo com expectativa uma chance de estar presente no mercado e enquanto este momento não chegar,
                        vou estar sempre me especializando e me preparando cada vez mais.
                     </p>
                     <div className="newFlex">
