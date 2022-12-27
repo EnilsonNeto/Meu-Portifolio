@@ -92,15 +92,18 @@ a,button:hover {
     }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 768px) {
    
     h1 {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         margin-right: 50px;
         margin-left: 50px;
         padding: 15px;
     }
-    
+    ul {
+        margin-right: 15px;
+        gap: 70px;
+    }
 }
 
 

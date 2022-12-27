@@ -51,4 +51,44 @@ img {
   filter: brightness(0.5);
 }
 
+
+@media (max-width:1440px) {
+  .configure h2 {
+    top: 47%;
+    right: 43%;
+  }
+  .configure p {
+    top: 60%;
+  }
+
+  @media (max-width:1024px) {
+    .configure h3 {
+      font-size: 2rem;
+    }
+    .configure h2 {
+      font-size: 2.7rem;
+      top: 48%;
+      right: 45%;
+    }
+    .configure p {
+      font-size: 1.2rem;
+      top: 60%;
+      right: 45%;
+    }
+    
+    @media (max-width: 768px) {
+        .configure h3 {
+          font-size: 1.5rem;
+        }
+        .configure h2 {
+          font-size: 2rem;
+        }
+        .configure p {
+          font-size: 1rem;
+          top: 60%;
+          right: 42%;
+        }
+    }
+  }
+}
 `;
