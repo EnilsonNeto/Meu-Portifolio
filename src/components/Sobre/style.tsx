@@ -21,36 +21,47 @@ h1 {
     font-size: 10rem;
 }
 
-nav {
+.nav1 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-ul {
+.ulOne {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    gap:  700px;
-    margin-bottom: 35px;
+    gap: 350px;
 }
 
 .onePart h2 {
     font-size: 4rem;
-    margin-left: 400px;
     color: var(--purple-light);
 }
 
 
-.onePart p {
+.ul2 p {
     text-align: justify;
-    margin-left: 45px;
-    padding-top: 5px;
-    
+    padding-top: 15px;
+    margin-left: 50px;
     font-size: 1.2rem;
 }
 
+.ul2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-right: 10px;
+    gap: 25px;
+}  
+
+img {
+    width: 115px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
 
 
 `;
