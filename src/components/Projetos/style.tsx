@@ -18,7 +18,7 @@ export const Container = styled.main`
     }
 
     .Fundo{
-        background: linear-gradient(#000,transparent);
+        background: linear-gradient(#000,transparent,#000);
     }
 
     
@@ -77,6 +77,13 @@ export const Container = styled.main`
             grid-template-columns: 60% 60% ;
             margin-left: 18%;
         }
+        @media (max-width: 1024px) {
+            h1 {
+            font-size: 6rem;
+            padding: 0;
+        }
+        } 
+
         @media (max-width: 768px) {
         .compounds {
             margin-left: 12%;
