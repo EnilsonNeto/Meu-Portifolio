@@ -9,7 +9,7 @@ export function Sobre() {
     return (
         <Container>
             <div className="Fundo">
-                <h1>Sobre Mim</h1>
+                <h1 id="Sobre">Sobre Mim</h1>
 
                 <div className="onePart">
                     <nav className="nav1">

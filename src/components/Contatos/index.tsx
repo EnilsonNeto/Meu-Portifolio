@@ -10,7 +10,7 @@ export function Contato () {
         <Container>
             <div className="Fundo">
                 <div className="Apresentation">
-                    <h1>Contatos</h1>
+                    <h1 id="Contato">Contatos</h1>
                 </div>
 
                 <div className="contacts">

@@ -5,13 +5,13 @@ export function NavBar() {
         <Container>
             <div className="navBarAll">
                 <nav>
-                   <h1>Enilson Neto.DEV</h1>
+                   <h1 id="Home">Enilson Neto.DEV</h1>
                    <button>&#9776;</button>
                     <ul>
-                        <a href="#">Home</a>
-                        <a href="#">Sobre</a>
-                        <a href="#">Projetos</a>
-                        <a href="#">Contatos</a>
+                        <a href="#Home">Home</a>
+                        <a href="#Sobre">Sobre</a>
+                        <a href="#Project">Projetos</a>
+                        <a href="#Contato">Contatos</a>
                     </ul>
                 </nav>
             </div>
