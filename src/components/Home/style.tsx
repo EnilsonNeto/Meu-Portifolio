@@ -11,8 +11,9 @@ export const Container = styled.main`
 .configure {
   display: flex;
   justify-content: center;
-  width: 100vw;
-  padding-top: 7%;
+  width: 99vw;
+  align-items: center;
+  /* padding-top: 7%; */
 }
 
 
@@ -32,9 +33,15 @@ img {
           width: 100vw;
           margin-top: 8%;
          }
+         .configure {
+         padding-top: 7%;
+         }
 
          @media (min-width: 320px){
-
+          
+          .configure {
+          padding-top: 7%;
+          }
           img {
             width: 100vw;
           }
