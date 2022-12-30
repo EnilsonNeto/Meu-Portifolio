@@ -152,9 +152,27 @@ img {
                 margin: 0;
                 padding: 0;
             }
+            @media (min-width: 320px) {
+                .Fundo {
+                    width: 100vw;
+                }
+                
+                h1 {
+                    font-size: 2.5rem;
+                }
 
+                .ulOne h2 {
+                    font-size: 1.5rem;
+                }
+                .newFlex {
+                padding-bottom: 280%;
+                }
+                img {
+                    width: 50%;
+                }
+                
+                }
             }
-
         }
     }
 }

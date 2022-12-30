@@ -124,6 +124,16 @@ export const Container = styled.main`
             p{
                 text-align: center;
             }
+            @media (min-width: 320px) {
+                .apresentation h1 {
+                    font-size: 2.5rem;
+                }
+                .compounds {
+                    margin: 0;
+                    margin-left: 5%;
+                    gap: 100px;
+                }
+            }
         }
     }
 }   
