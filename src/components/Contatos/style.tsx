@@ -51,6 +51,25 @@ a:hover {
         a:hover {
             border: none;
         }
+    @media (max-width: 576px) {
+        .Fundo {
+            width: 100vw;
+        }
+        h1{
+            font-size: 4rem;
+        }
+        .contacts {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a {
+            padding-left: 5%;
+        }
+
+
+        }
+
     }
 }
 

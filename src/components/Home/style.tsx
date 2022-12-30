@@ -88,6 +88,17 @@ img {
           top: 60%;
           right: 42%;
         }
+        @media (max-width: 576px) {
+      
+          img {
+          display: block;
+          align-items: center;
+          justify-content: center;
+          width: 100vw;
+          margin-top: 8%;
+         }
+
+      }
     }
   }
 }

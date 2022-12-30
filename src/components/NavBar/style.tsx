@@ -9,6 +9,7 @@ export const Container = styled.main`
     box-sizing: border-box;
 }
 
+
 nav {
     background: #0c0011;
     color: white;
@@ -67,10 +68,11 @@ a {
     text-transform: uppercase;
 }
 
-a,button:hover {
+a:hover {
     filter: brightness(20);
-    color: #744a91;
-    transition: 0.8s;
+    color: #00ccff;
+    transition: 0.2s;
+    border-bottom: 3px solid #00ccff;
 }
 
 
@@ -84,25 +86,68 @@ a,button:hover {
         margin-right: 95px;
         font-size: 0.9rem;
     }
-}
-@media (max-width: 1080px) {
+    @media (max-width: 1080px) {
+        
+        h1 {
+            font-size: 1.4rem;
+        }
+    @media (max-width: 768px) {
+           
+        h1 {
+                font-size: 1.2rem;
+                margin-right: 50px;
+                margin-left: 50px;
+                padding: 15px;
+        }
+        ul {
+                margin-right: 15px;
+                gap: 70px;
+        }
+        @media (max-width: 576px) {
 
-    h1 {
-        font-size: 1.4rem;
-    }
-}
+            
+            .navBarAll {
+                padding-bottom: 23%;
+                display: flex;
+                width: 100vw;
+                height: auto;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
 
-@media (max-width: 768px) {
-   
-    h1 {
-        font-size: 1.2rem;
-        margin-right: 50px;
-        margin-left: 50px;
-        padding: 15px;
-    }
-    ul {
-        margin-right: 15px;
-        gap: 70px;
+            }
+
+
+            h1{
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                font-size: 1.6rem;
+            }
+
+            nav, ul {
+                flex-direction: column;
+                align-items: unset;
+                background-color: #0c0011;
+                width: 100%;
+            }
+            ul {
+                /* display: flex; */
+                text-align: center;
+                gap: 20px;
+                padding-bottom: 3%;
+                margin: 0;
+            }
+            nav {
+                padding-top: 10px;
+                width: 100%;
+                gap: 3%;
+            }
+            
+
+
+            }
+        }
     }
 }
 

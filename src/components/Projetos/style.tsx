@@ -40,13 +40,12 @@ export const Container = styled.main`
     }
 
     .compounds img {
-        width: 80%;
+        width: 100%;
         margin-left: 15%;
     }
 
     img{
         border: 1px solid;
-        width: 100%;
     }
 
     .compounds p {
@@ -97,6 +96,34 @@ export const Container = styled.main`
         }
         .compounds p {
             font-size: 0.6rem;
+        }
+
+        @media (max-width: 576px) {
+            .Fundo {
+                width: 100vw;
+            }
+            .apresentation {
+                padding-top: 5%;
+            }
+            .apresentation h1 {
+                font-size: 4rem;
+            }
+            .compounds img {
+                width: 25vw;
+                margin: 0;
+            }
+
+            .compounds h4 p {
+                margin: 0;
+                padding: 0;
+            }
+            .compounds {
+                gap: 120px;
+                padding-left: 5%;
+            }
+            p{
+                text-align: center;
+            }
         }
     }
 }   

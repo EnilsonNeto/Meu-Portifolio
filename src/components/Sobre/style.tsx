@@ -28,10 +28,11 @@ h1 {
 
 .ulOne {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    gap: 350px;
+    justify-content: center;
+    gap: 45%;
+}
+.onePart {
+
 }
 
 .onePart h2 {
@@ -51,8 +52,7 @@ h1 {
 
 .ul2 {
     display: flex;
-    align-items: center;
-    gap: 65px;
+
 }  
 
 img {
@@ -74,11 +74,11 @@ img {
         font-size: 8rem;
     }
     .newFlex {
-        display: flexbox;
-        width: 40%;
-        margin-left: 15%;
-        margin-bottom: 15%;
-        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
     }
 
     .ulOne {
@@ -86,7 +86,11 @@ img {
     }
 
     p{
-        margin-bottom: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
     }
 
     img {
@@ -98,19 +102,22 @@ img {
         h1 {
             font-size: 6rem;
         }
+        .ulOne{
+            gap: 25%;
+        }
         .ulOne h2 {
             font-size: 3.4rem;
         }
         .newFlex {
-            padding-bottom: 30%;
+            padding-bottom: 10%;
+            width: 50%;
+            margin: 0;
         }
         img {
-            width: 37%;
+            width: 25%;
         }
         ul .ul2 {
-            width: 70%;
-            justify-content: space-around;
-            height: 50%;
+          
         }
 
         @media (max-width: 768px) {
@@ -126,6 +133,28 @@ img {
            .newFlex {
             margin-left: 15px;
            }
+
+        @media (max-width: 576px){
+            .Fundo {
+                width: 100vw;
+            }
+            
+            h1 {
+                font-size: 3.5rem;
+                margin-bottom: 2%;
+            }
+            .newFlex {
+                margin: 0;
+                padding: 0;
+            }
+            img {
+                width: 18vw;
+                margin: 0;
+                padding: 0;
+            }
+
+            }
+
         }
     }
 }
