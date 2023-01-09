@@ -52,7 +52,7 @@ export const Container = styled.main`
         display: flex;
         justify-content: center;
         text-align: center;
-        margin-left: 10%;
+        margin-left: 35%;
     }
 
 
@@ -61,7 +61,7 @@ export const Container = styled.main`
         justify-content: center;
         font-size: 1.5rem;
         margin-bottom: 1%;
-        margin-left: 10%;
+        margin-left: 30%;
         text-align: center;
     }
 
